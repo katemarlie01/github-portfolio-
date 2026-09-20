@@ -1,3 +1,11 @@
+body {
+  background: linear-gradient(to bottom right, #ffeef2, #f7e9ff); /* pastel pink + lavender */
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
 /* Profile picture with border */
 .profile-pic {
   display: block;
