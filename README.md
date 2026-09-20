@@ -55,8 +55,8 @@ Second-Year College Student, Catanduanes State University
 
 ## 📬 Contact
 - **Email:** katemarlie01@gmail.com  
-- **GitHub:** [github.com/katemarlie01](https://github.com/katemarlie01)
-
+- **Instagram:** https://www.instagram.com/iam_katemarlie?stkn=bnN1aW5wcm5lMWNw                    
+- **Facebook:** https://web.facebook.com/kate.135272
 ---
 
 Made with 💖 by Kate Marlie — a student who codes, learns, and dreams big.
