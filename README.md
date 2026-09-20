@@ -1,7 +1,7 @@
-# 🌸 Kate Marlie Portfolio
+# 🌸 Kate Marlie V. Vitalicio Student Portfolio
 
 Welcome to my portfolio!  
-I’m Kate Marlie, a second-year college student who loves learning coding and design step by step.
+I’m Kate Marlie V. Vitalicio, a second-year college student who loves learning coding and design step by step.
 
 ---
 
