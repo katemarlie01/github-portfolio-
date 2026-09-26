@@ -10,168 +10,210 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
-  <!-- FontAwesome for Icons -->
+  <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <style>
+    /* ==========================================
+       RESET & GLOBAL STYLES
+       ========================================== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  <!-- Sticky Navigation Header -->
-  <header class="navbar">
-    <div class="nav-container">
-      <a href="#hero" class="logo">🌸 Kate's Portfolio</a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#goals">Goals</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#achievements">Achievements</a></li>
-          <li><a href="#interests">Interests</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    html {
+      scroll-behavior: smooth;
+    }
 
-  <main>
-    <!-- Hero / Profile Section -->
-    <section id="hero" class="hero-section">
-      <div class="hero-container">
-        <div class="profile-img-container">
-          <!-- Palitan ang profile.png ng eksaktong file name ng iyong larawan -->
-          <img src="profile.png" alt="Kate Marlie V. Vitalicio ID Picture with Uniform" class="profile-img">
-          <div class="sparkle-badge">✨</div>
-        </div>
-        <div class="hero-text">
-          <h1>🌸 Kate Marlie V. Vitalicio Student Portfolio</h1>
-          <p class="welcome-text">Welcome to my portfolio!</p>
-          <p class="intro-text">I'm Kate Marlie V. Vitalicio, a second-year college student who loves learning coding and design step by step.</p>
-          <a href="#contact" class="cta-btn">Get In Touch 💌</a>
-        </div>
-      </div>
-    </section>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fffafc;
+      color: #4a3e3d;
+      line-height: 1.6;
+    }
 
-    <!-- About Me Section -->
-    <section id="about" class="section">
-      <div class="container">
-        <h2>🧑‍💼 About Me</h2>
-        <div class="card">
-          <p>Hello! I'm Kate Marlie, a second-year college student from Catanduanes.</p>
-          <p>I'm learning coding even though it's challenging for me. However, I continue to learn because every small step helps me grow as a future developer.</p>
-          <p>I value family, friendship, creativity, and personal growth as much as academics.</p>
-        </div>
-      </div>
-    </section>
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
 
-    <!-- Goals Section -->
-    <section id="goals" class="section">
-      <div class="container">
-        <h2>🎯 Goals</h2>
-        <div class="card">
-          <ul class="custom-list">
-            <li>Become more confident in coding</li>
-            <li>Create projects that show my growth</li>
-            <li>Graduate successfully</li>
-            <li>Give back to my family</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    /* ==========================================
+       STICKY NAVIGATION BAR
+       ========================================== */
+    .navbar {
+      position: sticky;
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 2px solid #fbcfe8;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(244, 114, 182, 0.1);
+    }
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-      <div class="container">
-        <h2>💻 Skills</h2>
-        <div class="skills-grid">
-          <div class="skill-card"><i class="fa-brands fa-html5"></i> HTML</div>
-          <div class="skill-card"><i class="fa-brands fa-css3-alt"></i> CSS</div>
-          <div class="skill-card"><i class="fa-solid fa-code"></i> C++</div>
-          <div class="skill-card"><i class="fa-brands fa-github"></i> GitHub</div>
-          <div class="skill-card"><i class="fa-solid fa-puzzle-piece"></i> Problem Solving</div>
-        </div>
-      </div>
-    </section>
+    .nav-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+    }
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>📁 Projects</h2>
-        <div class="projects-grid">
-          <div class="project-card">
-            <h3>Personal Portfolio Website</h3>
-            <p>A responsive website created using HTML and CSS that introduces myself and showcases my skills and achievements.</p>
-          </div>
-          <div class="project-card">
-            <h3>C++ Programming Activities</h3>
-            <p>A collection of programming activities including OOP, classes, structures, queues, stacks, and exception handling.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    .logo {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #db2777;
+      text-decoration: none;
+    }
 
-    <!-- Achievements Section -->
-    <section id="achievements" class="section">
-      <div class="container">
-        <h2>🏅 Achievements</h2>
-        <div class="card">
-          <ul class="custom-list">
-            <li>Completed Web Development Activities</li>
-            <li>Created My GitHub Portfolio</li>
-            <li>Built My First Portfolio Website</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 15px;
+    }
 
-    <!-- Interests Section -->
-    <section id="interests" class="section">
-      <div class="container">
-        <h2>💖 Interests</h2>
-        <div class="interests-tags">
-          <span class="tag">Web Development</span>
-          <span class="tag">Programming</span>
-          <span class="tag">UI Design</span>
-          <span class="tag">Fashion Styling</span>
-          <span class="tag">Watching MCU Movies</span>
-        </div>
-      </div>
-    </section>
+    .nav-links a {
+      text-decoration: none;
+      color: #701a75;
+      font-weight: 500;
+      font-size: 0.9rem;
+      transition: color 0.3s ease, transform 0.2s ease;
+    }
 
-    <!-- Education Section -->
-    <section id="education" class="section">
-      <div class="container">
-        <h2>🎓 Education</h2>
-        <div class="card education-card">
-          <h3>Bachelor of Science in Computer Science</h3>
-          <p class="school">Catanduanes State University</p>
-          <span class="status-badge">Second-Year Student</span>
-        </div>
-      </div>
-    </section>
+    .nav-links a:hover {
+      color: #ec4899;
+      transform: translateY(-2px);
+    }
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>📫 Contact</h2>
-        <div class="card contact-card">
-          <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> <a href="mailto:katemarlie01@gmail.com">katemarlie01@gmail.com</a></p>
-          <p><i class="fa-brands fa-instagram"></i> <strong>Instagram:</strong> <a href="https://instagram.com/iam_katemarlie" target="_blank">iam_katemarlie</a></p>
-          <p><i class="fa-brands fa-facebook"></i> <strong>Facebook:</strong> <a href="https://facebook.com" target="_blank">Kate Marlie Vitalicio</a></p>
-        </div>
-      </div>
-    </section>
-  </main>
+    /* ==========================================
+       HERO / PROFILE SECTION
+       ========================================== */
+    .hero-section {
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 50%, #f472b6 100%);
+      text-align: center;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>Made with 💕 by Kate Marlie | BSCS Student</p>
-    </div>
-  </footer>
+    .hero-container {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
 
-</body>
-</html>
+    /* Floating animation for profile picture */
+    .profile-img-container {
+      position: relative;
+      animation: float 4s ease-in-out infinite;
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #ffffff;
+      box-shadow: 0 8px 25px rgba(219, 39, 119, 0.3);
+    }
+
+    .sparkle-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 1.8rem;
+      animation: spin 3s infinite linear;
+    }
+
+    .hero-text h1 {
+      font-size: 2.2rem;
+      color: #831843;
+      margin-bottom: 5px;
+    }
+
+    .welcome-text {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #be185d;
+      margin-bottom: 10px;
+    }
+
+    .intro-text {
+      font-size: 1rem;
+      color: #4c0519;
+      max-width: 600px;
+      margin: 0 auto 20px auto;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      padding: 10px 25px;
+      background-color: #db2777;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 25px;
+      box-shadow: 0 4px 15px rgba(219, 39, 119, 0.4);
+      transition: all 0.3s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #be185d;
+      transform: scale(1.05);
+    }
+
+    /* ==========================================
+       SECTIONS & CARDS
+       ========================================== */
+    .section {
+      padding: 40px 0;
+    }
+
+    .section h2 {
+      color: #9d174d;
+      font-size: 1.6rem;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 16px;
+      border: 1px solid #fbcfe8;
+      box-shadow: 0 4px 15px rgba(244, 114, 182, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card p {
+      margin-bottom: 12px;
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(244, 114, 182, 0.18);
+    }
+
+    .custom-list {
+      list-style-type: '🌸 ';
+      padding-left: 20px;
+    }
+
+    .custom-list li {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    /* ====================================
