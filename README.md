@@ -23,12 +23,17 @@ I value family, friendship and of course MONEY.
 
 ---
 
-## 💻 Skills
+## 🛠️ Technical Skills
+
+ * Languages:* HTML, CSS, C++
+ * Tools:* Git, GitHub
+ * Core:* Problem Solving
+
+## 🎨 Hobbies & Interests
 
 * Dancing
 * Singing
-* Cooking simple recipes 
-
+* Cooking simple recipes
 ---
 
 ## 📁 Projects
