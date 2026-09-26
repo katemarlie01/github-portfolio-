@@ -25,12 +25,12 @@ body {
 }
 
 /* ==========================================
-   NAVIGATION BAR
+   STICKY NAVBAR
    ========================================== */
 .navbar {
   position: sticky;
   top: 0;
-  background-color: rgba(255, 255, 255, 0.92);
+  background-color: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(8px);
   border-bottom: 2px solid #fbcfe8;
   z-index: 1000;
@@ -73,7 +73,7 @@ body {
 }
 
 /* ==========================================
-   HERO / PROFILE SECTION
+   HERO / PROFILE SECTION & ANIMATIONS
    ========================================== */
 .hero-section {
   padding: 60px 20px;
@@ -92,10 +92,11 @@ body {
   gap: 20px;
 }
 
-/* Floating animation for image */
+/* FLOATING ANIMATION FOR PICTURE */
 .profile-img-container {
   position: relative;
   animation: float 4s ease-in-out infinite;
+  display: inline-block;
 }
 
 .profile-img {
@@ -105,6 +106,8 @@ body {
   border-radius: 50%;
   border: 5px solid #ffffff;
   box-shadow: 0 8px 25px rgba(219, 39, 119, 0.3);
+  background-color: #ffffff;
+  display: block;
 }
 
 .sparkle-badge {
@@ -153,7 +156,7 @@ body {
 }
 
 /* ==========================================
-   SECTIONS & CARDS
+   CARDS & SECTIONS
    ========================================== */
 .section {
   padding: 40px 0;
@@ -177,8 +180,15 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card p {
+  margin-bottom: 12px;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
 .card:hover {
-  transform: translateY(-50px);
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(244, 114, 182, 0.18);
 }
@@ -194,7 +204,7 @@ body {
 }
 
 /* ==========================================
-   SKILLS SECTION
+   SKILLS GRID
    ========================================== */
 .skills-grid {
   display: grid;
@@ -227,7 +237,7 @@ body {
 }
 
 /* ==========================================
-   PROJECTS SECTION
+   PROJECTS GRID
    ========================================== */
 .projects-grid {
   display: grid;
@@ -339,7 +349,7 @@ footer {
 }
 
 /* ==========================================
-   ANIMATIONS
+   GUMAGALAW NA KEYFRAME ANIMATIONS
    ========================================== */
 @keyframes float {
   0% { transform: translateY(0px); }
@@ -353,7 +363,7 @@ footer {
 }
 
 /* ==========================================
-   RESPONSIVE DESIGN (MOBILE VIEW)
+   RESPONSIVE DESIGN FOR MOBILE
    ========================================== */
 @media (max-width: 768px) {
   .nav-container {
