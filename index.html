@@ -1,179 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kate Marlie V. Vitalicio Portfolio</title>
-
-    style.css
-
-    https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kate Marlie V. Vitalicio | Student Portfolio</title>
+  
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div class="crown">👑</div>
-
-    <div class="sparkle s1">✨</div>
-    <div class="sparkle s2">✨</div>
-    <div class="sparkle s3">✨</div>
-
-    <div class="container">
-
-        <header>
-
-            id picture with uniform.png
-
-            <h1>🌸 Kate Marlie V. Vitalicio Student Portfolio</h1>
-
-            <p>
-                Welcome to my portfolio!
-                <br>
-                I'm Kate Marlie V. Vitalicio, a second-year college student who loves learning coding and design step by step.
-            </p>
-
-        </header>
-
-        <section>
-
-            <h2>👩‍🎓 About Me</h2>
-
-            <p>
-                Hello! I'm Kate Marlie, a second-year college student from Catanduanes.
-            </p>
-
-            <p>
-                I'm learning coding even though it's challenging for me. However, I continue to learn because every small step helps me grow as a future developer.
-            </p>
-
-            <p>
-                I value family, friendship, creativity, and personal growth as much as academics.
-            </p>
-
-        </section>
-
-        <section>
-
-            <h2>🎯 Goals</h2>
-
-            <ul>
-                <li>Become more confident in coding</li>
-                <li>Create projects that show my growth</li>
-                <li>Graduate successfully</li>
-                <li>Give back to my family</li>
-            </ul>
-
-        </section>
-
-        <section>
-
-            <h2>💻 Skills</h2>
-
-            <div class="skills">
-
-                <div class="skill-card">HTML</div>
-
-                <div class="skill-card">CSS</div>
-
-                <div class="skill-card">C++</div>
-
-                <div class="skill-card">GitHub</div>
-
-                <div class="skill-card">Problem Solving</div>
-
-            </div>
-
-        </section>
-
-        <section>
-
-            <h2>📁 Projects</h2>
-
-            <div class="project">
-
-                <h3>Personal Portfolio Website</h3>
-
-                <p>
-                    A responsive website created using HTML and CSS that introduces myself and showcases my skills and achievements.
-                </p>
-
-            </div>
-
-            <div class="project">
-
-                <h3>C++ Programming Activities</h3>
-
-                <p>
-                    A collection of programming activities including OOP, classes, structures, queues, stacks, and exception handling.
-                </p>
-
-            </div>
-
-        </section>
-
-        <section>
-
-            <h2>🏆 Achievements</h2>
-
-            <ul>
-                <li>Completed Web Development Activities</li>
-                <li>Created My GitHub Portfolio</li>
-                <li>Built My First Portfolio Website</li>
-            </ul>
-
-        </section>
-
-        <section>
-
-            <h2>❤️ Interests</h2>
-
-            <ul>
-                <li>Web Development</li>
-                <li>Programming</li>
-                <li>UI Design</li>
-                <li>Fashion Styling</li>
-                <li>Watching MCU Movies</li>
-            </ul>
-
-        </section>
-
-        <section>
-
-            <h2>🎓 Education</h2>
-
-            <p>
-                Bachelor of Science in Computer Science
-                <br>
-                Catanduanes State University
-                <br>
-                Second-Year Student
-            </p>
-
-        </section>
-
-        <section>
-
-            <h2>📬 Contact</h2>
-
-            <ul>
-                <li>Email: katemarlie01@gmail.com</li>
-                <li>Instagram: iam_katemarlie</li>
-                <li>Facebook: Kate Marlie Vitalicio</li>
-            </ul>
-
-        </section>
-
-        <footer>
-
-            <p>
-                Made with 💖 by Kate Marlie | BSCS Student
-            </p>
-
-        </footer>
-
+  <!-- Sticky Navigation Header -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">🌸 Kate's Portfolio</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#goals">Goals</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <!-- Hero / Profile Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-container">
+        <div class="profile-img-container">
+          <!-- Palitan ang profile.png ng eksaktong file name ng iyong larawan -->
+          <img src="profile.png" alt="Kate Marlie V. Vitalicio ID Picture with Uniform" class="profile-img">
+          <div class="sparkle-badge">✨</div>
+        </div>
+        <div class="hero-text">
+          <h1>🌸 Kate Marlie V. Vitalicio Student Portfolio</h1>
+          <p class="welcome-text">Welcome to my portfolio!</p>
+          <p class="intro-text">I'm Kate Marlie V. Vitalicio, a second-year college student who loves learning coding and design step by step.</p>
+          <a href="#contact" class="cta-btn">Get In Touch 💌</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>🧑‍💼 About Me</h2>
+        <div class="card">
+          <p>Hello! I'm Kate Marlie, a second-year college student from Catanduanes.</p>
+          <p>I'm learning coding even though it's challenging for me. However, I continue to learn because every small step helps me grow as a future developer.</p>
+          <p>I value family, friendship, creativity, and personal growth as much as academics.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals" class="section">
+      <div class="container">
+        <h2>🎯 Goals</h2>
+        <div class="card">
+          <ul class="custom-list">
+            <li>Become more confident in coding</li>
+            <li>Create projects that show my growth</li>
+            <li>Graduate successfully</li>
+            <li>Give back to my family</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>💻 Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="fa-brands fa-html5"></i> HTML</div>
+          <div class="skill-card"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+          <div class="skill-card"><i class="fa-solid fa-code"></i> C++</div>
+          <div class="skill-card"><i class="fa-brands fa-github"></i> GitHub</div>
+          <div class="skill-card"><i class="fa-solid fa-puzzle-piece"></i> Problem Solving</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>📁 Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive website created using HTML and CSS that introduces myself and showcases my skills and achievements.</p>
+          </div>
+          <div class="project-card">
+            <h3>C++ Programming Activities</h3>
+            <p>A collection of programming activities including OOP, classes, structures, queues, stacks, and exception handling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <h2>🏅 Achievements</h2>
+        <div class="card">
+          <ul class="custom-list">
+            <li>Completed Web Development Activities</li>
+            <li>Created My GitHub Portfolio</li>
+            <li>Built My First Portfolio Website</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="section">
+      <div class="container">
+        <h2>💖 Interests</h2>
+        <div class="interests-tags">
+          <span class="tag">Web Development</span>
+          <span class="tag">Programming</span>
+          <span class="tag">UI Design</span>
+          <span class="tag">Fashion Styling</span>
+          <span class="tag">Watching MCU Movies</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2>🎓 Education</h2>
+        <div class="card education-card">
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p class="school">Catanduanes State University</p>
+          <span class="status-badge">Second-Year Student</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>📫 Contact</h2>
+        <div class="card contact-card">
+          <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> <a href="mailto:katemarlie01@gmail.com">katemarlie01@gmail.com</a></p>
+          <p><i class="fa-brands fa-instagram"></i> <strong>Instagram:</strong> <a href="https://instagram.com/iam_katemarlie" target="_blank">iam_katemarlie</a></p>
+          <p><i class="fa-brands fa-facebook"></i> <strong>Facebook:</strong> <a href="https://facebook.com" target="_blank">Kate Marlie Vitalicio</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>Made with 💕 by Kate Marlie | BSCS Student</p>
+    </div>
+  </footer>
 
 </body>
-
 </html>
