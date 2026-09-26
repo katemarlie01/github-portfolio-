@@ -1,62 +1,91 @@
-# 🌸 Kate Marlie V. Vitalicio Student Portfolio
+# 👑 Kate Marlie V. Vitalicio | Student Portfolio
 
-Welcome to my portfolio!  
-I’m Kate Marlie V. Vitalicio, a second-year college student who loves learning coding and design step by step.
+## 🌸 Project Overview
 
----
+Welcome to my portfolio website!
 
-## 👩‍🎓 About Me
-Hello! I’m Kate Marlie, a second-year college student from Catanduanes.  
-I’m learning coding even though it’s challenging for me, especially since I consider myself a slow learner.  
-But I’m determined to keep trying, because every step forward is part of my growth in design, creativity, and self-discovery.  
-I also value family, friendship, and personal growth as much as academics.  
+My name is **Kate Marlie V. Vitalicio**, a second-year Bachelor of Science in Computer Science student at Catanduanes State University.
 
-My personality is a mix of curiosity and goofiness — I love learning new things and finding creative solutions.
+This website was created as part of my Web Development course project. It showcases my personal information, skills, projects, goals, interests, and educational background while applying proper web development practices.
 
 ---
 
-## 🎯 Goals
-- Become more confident in coding and finish small projects that show my growth  
-- Travel the world independently  
-- Make sure my mom stays happy and experiences a luxurious life  
+## 🎯 Purpose of the Portfolio
+
+The purpose of this portfolio is to:
+
+- Introduce myself
+- Showcase my skills and projects
+- Demonstrate my progress in web development
+- Practice HTML and CSS development
 
 ---
 
-## 💡 Inspirations
-I’m inspired by my family who always support me, my friends who keep me motivated,  
-and creators who prove that learning step by step can lead to amazing results.
+## 👥 Intended Audience
+
+This portfolio is intended for:
+
+- Instructors
+- Classmates
+- Future collaborators
+- Potential employers
 
 ---
 
-## ✨ Motto
-> “Learning may be tough, but every bug fixed is a victory.”  
-I believe that mistakes are part of the journey, and each challenge makes me stronger.
+## 💻 Technologies Used
+
+- HTML5
+- CSS3
+- GitHub
 
 ---
 
-## 🎮 Fun Facts
-- I’m good at making friends easily  
-- I love fashion styling and color matching outfits for fun  
-- I know when people dislike my humor  
-- MCU marathons are my comfort zone — I can rewatch Iron Man anytime  
+## 📁 Website Sections
+
+- About Me
+- Goals
+- Skills
+- Projects
+- Achievements
+- Interests
+- Education
+- Contact
 
 ---
 
-## 🧠 Skills
-- Singing  
-- Dancing  
+## 🚀 Current Project Status
+
+The project is approximately 60–70% complete.
+
+### Completed
+- Website structure
+- Main content sections
+- CSS styling
+- Responsive layout
+- Basic accessibility
+
+### Remaining Work
+- Add more projects
+- Improve design
+- Further testing
+- Final deployment using GitHub Pages
 
 ---
 
-## 🎓 Education
-Second-Year College Student, Catanduanes State University
+## ⚡ Development Challenge
+
+One challenge I encountered was making the website responsive on smaller screens.
+
+I solved this problem using CSS Flexbox and Media Queries. Through this experience, I learned the importance of testing websites on different devices and screen sizes.
 
 ---
 
-## 📬 Contact
-- **Email:** katemarlie01@gmail.com  
-- **Instagram:** https://www.instagram.com/iam_katemarlie?stkn=bnN1aW5wcm5lMWNw                    
-- **Facebook:** https://web.facebook.com/kate.135272
----
+## 🌸 Author
 
-Made with 💖 by Kate Marlie — a student who codes, learns, and dreams big.
+Kate Marlie V. Vitalicio
+
+BSCS Student
+
+Catanduanes State University
+
+Made with 💖 using HTML and CSS
