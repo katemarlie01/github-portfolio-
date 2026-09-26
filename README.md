@@ -1,17 +1,16 @@
 # 🌸 Kate Marlie V. Vitalicio Student Portfolio
 
-Welcome to my portfolio!  
-I'm Kate Marlie V. Vitalicio, a second-year college student who loves learning coding and design step by step.
+Welcome to my portfolio!
 
 ---
 
 ## 🧑‍💼 About Me
 
-Hello! I'm Kate Marlie, a second-year college student from Catanduanes.
+Hello! I'm Kate Marlie, a second-year college student from Panganiban, Catanduanes.
 
 I'm learning coding even though it's challenging for me. However, I continue to learn because every small step helps me grow as a future developer.
 
-I value family, friendship, creativity, and personal growth as much as academics.
+I value family, friendship and of course MONEY.  
 
 ---
 
@@ -20,24 +19,22 @@ I value family, friendship, creativity, and personal growth as much as academics
 * Become more confident in coding
 * Create projects that show my growth
 * Graduate successfully
-* Give back to my family
+* Give back to my families and enemies
 
 ---
 
 ## 💻 Skills
 
-* HTML
-* CSS
-* C++
-* GitHub
-* Problem Solving
+* Dancing
+* Singing
+* Cooking simple recipes 
 
 ---
 
 ## 📁 Projects
 
 ### Personal Portfolio Website
-A responsive website created using HTML and CSS that introduces myself and showcases my skills and achievements.
+A responsive website created using HTML and CSS that introduces myself and showcases my skills.
 
 ### C++ Programming Activities
 A collection of programming activities including OOP, classes, structures, queues, stacks, and exception handling.
@@ -46,7 +43,7 @@ A collection of programming activities including OOP, classes, structures, queue
 
 ## 🏅 Achievements
 
-* Completed Web Development Activities
+* Completed mostly of the task in Onlinegdb
 * Created My GitHub Portfolio
 * Built My First Portfolio Website
 
@@ -54,9 +51,9 @@ A collection of programming activities including OOP, classes, structures, queue
 
 ## 💖 Interests
 
-* Web Development
-* Programming
-* UI Design
+* Animal
+* Ser Geybin
+* Make up
 * Fashion Styling
 * Watching MCU Movies
 
