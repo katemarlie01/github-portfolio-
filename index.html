@@ -1,179 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kate Marlie V. Vitalicio | Student Portfolio</title>
-  
-  <!-- Google Fonts: Poppins -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- FontAwesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <!-- KONEKSYON SA STYLE.CSS -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <!-- Navigation Bar -->
-  <header class="navbar">
-    <div class="nav-container">
-      <a href="#hero" class="logo">🌸 Kate's Portfolio</a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#goals">Goals</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#achievements">Achievements</a></li>
-          <li><a href="#interests">Interests</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <!-- Hero / Profile Section -->
-    <section id="hero" class="hero-section">
-      <div class="hero-container">
-        
-        <!-- PROFILE PICTURE -->
-        <div class="profile-img-container">
-          <img src="profile.png" alt="Kate Marlie V. Vitalicio Picture with Uniform" class="profile-img">
-          <div class="sparkle-badge">✨</div>
-        </div>
-
-        <div class="hero-text">
-          <h1>🌸 Kate Marlie V. Vitalicio Student Portfolio</h1>
-          <p class="welcome-text">Welcome to my portfolio!</p>
-          <p class="intro-text">I'm Kate Marlie V. Vitalicio, a second-year college student who loves learning coding and design step by step.</p>
-          <a href="#contact" class="cta-btn">Get In Touch 💌</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Me Section -->
-    <section id="about" class="section">
-      <div class="container">
-        <h2>🧑‍💼 About Me</h2>
-        <div class="card">
-          <p>Hello! I'm Kate Marlie, a second-year college student from Catanduanes.</p>
-          <p>I'm learning coding even though it's challenging for me. However, I continue to learn because every small step helps me grow as a future developer.</p>
-          <p>I value family, friendship and of course MONEY.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Goals Section -->
-    <section id="goals" class="section">
-      <div class="container">
-        <h2>🎯 Goals</h2>
-        <div class="card">
-          <ul class="custom-list">
-            <li>Become more confident in coding</li>
-            <li>Create projects that show my growth</li>
-            <li>Graduate successfully</li>
-            <li>Give back to my families and enemies</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-      <div class="container">
-        <h2>💻 Skills</h2>
-        <div class="skills-grid">
-          <div class="skill-card"><i class="fa-brands fa-html5"></i> HTML</div>
-          <div class="skill-card"><i class="fa-brands fa-css3-alt"></i> CSS</div>
-          <div class="skill-card"><i class="fa-solid fa-code"></i> C++</div>
-          <div class="skill-card"><i class="fa-brands fa-github"></i> GitHub</div>
-          <div class="skill-card"><i class="fa-solid fa-puzzle-piece"></i> Problem Solving</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>📁 Projects</h2>
-        <div class="projects-grid">
-          <div class="project-card">
-            <h3>Personal Portfolio Website</h3>
-            <p>A responsive website created using HTML and CSS that introduces myself and showcases my skills and achievements.</p>
-          </div>
-          <div class="project-card">
-            <h3>C++ Programming Activities</h3>
-            <p>A collection of programming activities including OOP, classes, structures, queues, stacks, and exception handling.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Achievements Section -->
-    <section id="achievements" class="section">
-      <div class="container">
-        <h2>🏅 Achievements</h2>
-        <div class="card">
-          <ul class="custom-list">
-            <li>Completed Web Development Activities</li>
-            <li>Created My GitHub Portfolio</li>
-            <li>Built My First Portfolio Website</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Interests Section -->
-    <section id="interests" class="section">
-      <div class="container">
-        <h2>💖 Interests</h2>
-        <div class="interests-tags">
-          <span class="tag">Web Development</span>
-          <span class="tag">Programming</span>
-          <span class="tag">UI Design</span>
-          <span class="tag">Fashion Styling</span>
-          <span class="tag">Watching MCU Movies</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="section">
-      <div class="container">
-        <h2>🎓 Education</h2>
-        <div class="card education-card">
-          <h3>Bachelor of Science in Computer Science</h3>
-          <p class="school">Catanduanes State University</p>
-          <span class="status-badge">Second-Year Student</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>📫 Contact</h2>
-        <div class="card contact-card">
-          <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> <a href="mailto:katemarlie01@gmail.com">katemarlie01@gmail.com</a></p>
-          <p><i class="fa-brands fa-instagram"></i> <strong>Instagram:</strong> <a href="https://instagram.com/iam_katemarlie" target="_blank">iam_katemarlie</a></p>
-          <p><i class="fa-brands fa-facebook"></i> <strong>Facebook:</strong> <a href="https://facebook.com" target="_blank">Kate Marlie Vitalicio</a></p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer>
+<!-- About Me Section -->
+<section id="about" class="section">
     <div class="container">
-      <p>Made with 💕 by Kate Marlie | BSCS Student</p>
-    </div>
-  </footer>
+        <h2>👩 About Me</h2>
 
-</body>
-</html>
+        <div class="card">
+            <p>
+                I'm Kate Marlie V. Vitalicio, a second-year college student from Catanduanes.
+            </p>
+
+            <p>
+                I'm learning coding even though it's challenging for me. However, I continue to
+                learn because every small step helps me grow as a future developer.
+            </p>
+
+            <p>
+                I value family, friendship and of course MONEY. 💸
+            </p>
+
+            <p>
+                As a Computer Science student, I continuously challenge myself to learn
+                programming, web development, and problem-solving skills that can help me
+                become a better developer in the future.
+            </p>
+
+            <p>
+                Even when I encounter difficulties, bugs, or confusing lessons, I try my best
+                to keep moving forward because I believe that improvement comes from practice,
+                patience, and determination.
+            </p>
+
+            <p>
+                Aside from academics, I enjoy expressing myself through fashion, music, self-care,
+                and creative activities. These hobbies help me stay motivated, confident, and balanced.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>✨ My Strengths</h3>
+            <ul class="custom-list">
+                <li>💪 Determined to keep learning even when things become difficult.</li>
+                <li>🎯 Responsible and committed to completing my tasks.</li>
+                <li>📈 Always willing to improve and learn from my mistakes.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>⚡ My Flaws</h3>
+            <ul class="custom-list">
+                <li>🤔 I sometimes overthink situations and decisions.</li>
+                <li>😅 I can become impatient when solving difficult coding problems.</li>
+                <li>🌙 I occasionally doubt my abilities even when I am making progress.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>🌸 Personal Life</h3>
+            <ul class="custom-list">
+                <li>👨‍👩‍👧 My family is one of my biggest sources of motivation and inspiration.</li>
+                <li>👭 I enjoy spending quality time with friends and creating good memories.</li>
+                <li>🌱 I believe in balancing studies, personal growth, and happiness.</li>
+            </ul>
+        </div>
+    </div>
+</section>
