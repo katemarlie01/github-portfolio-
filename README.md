@@ -7,7 +7,7 @@ Welcome to the personal portfolio website of *Kate Marlie V. Vitalicio*, a Secon
 ## 📌 Contents of the Website
 
 ### 🌸 About Me
-🙋‍♀️ Second-year Bachelor of Science in Computer Science student at Catanduanes State University.
+🙋‍♀️ I'm Kate Marlie V. Vitalicio, a second-year Bachelor of Science in Computer Science student from Catanduanes State University.
 💻 I'm learning coding even though it's challenging for me. However, I continue to learn because every small step helps me grow as a future developer.</p>
 💸 I value family, friendship, and of course <strong>MONEY</strong>.</p>
 🚀 As a Computer Science student, I continuously challenge myself to learn programming, web development, and problem-solving skills that can help me become a better developer in the future.</p>
