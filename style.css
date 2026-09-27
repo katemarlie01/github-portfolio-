@@ -800,56 +800,18 @@ body {
    ANIMATIONS
    ========================================== */
 
-@keyframes profilePop {
-
-  0% {
-    opacity: 0;
-
-    transform:
-      scale(0.3)
-      rotate(-15deg);
-  }
-
-  70% {
-    transform:
-      scale(1.1)
-      rotate(5deg);
-  }
-
-  100% {
-    opacity: 1;
-
-    transform:
-      scale(1)
-      rotate(0);
-  }
-
-}
-
 @keyframes cardPop {
-
-  0% {
-    opacity: 0;
-
-    transform:
-      scale(0.😎
-      translateY(35px);
-  }
-
-  70% {
-    transform:
-      scale(1.03)
-      translateY(-5px);
-  }
-
-  100% {
-    opacity: 1;
-
-    transform:
-      scale(1)
-      translateY(0);
-  }
-
+    0% {
+        opacity: 0;
+        transform: scale(0.😎 translateY(35px);
+    }
+    70% {
+        transform: scale(1.03) translateY(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0px);
+    }
 }
 
 @keyframes popIn {
