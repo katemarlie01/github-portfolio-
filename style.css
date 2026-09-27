@@ -1155,3 +1155,230 @@ body {
   }
 
 }
+
+/* ==========================================
+   EXTRA GIRLY EFFECTS
+   ========================================== */
+
+/* Floating Hearts Background */
+body::after{
+    content:"💖 🌸 ✨ 💕 🌷";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    opacity:.05;
+    font-size:40px;
+    z-index:-1;
+    animation:heartsMove 25s linear infinite;
+}
+
+@keyframes heartsMove{
+    from{
+        transform:translateY(100%);
+    }
+    to{
+        transform:translateY(-100%);
+    }
+}
+
+/* About Me Special Card */
+#about .card:first-child{
+    border-left:6px solid #ec4899;
+}
+
+#about .card:first-child:hover{
+    transform:
+    translateY(-12px)
+    rotate(1deg);
+
+    box-shadow:
+    0 25px 45px rgba(236,72,153,.25);
+}
+
+/* Heart Popup */
+.card:hover::after{
+    content:"💖";
+    position:absolute;
+    top:12px;
+    right:12px;
+    font-size:22px;
+    animation:heartPop .5s ease;
+}
+
+@keyframes heartPop{
+    from{
+        opacity:0;
+        transform:scale(0);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+
+/* Glow Headers */
+.section h2:hover{
+    color:#ec4899;
+
+    text-shadow:
+    0 0 10px rgba(236,72,153,.4),
+    0 0 20px rgba(236,72,153,.3),
+    0 0 30px rgba(236,72,153,.2);
+}
+
+/* Strengths Flaws Personal Life */
+.custom-list li{
+    background:#fff;
+    padding:14px;
+    border-radius:15px;
+    margin:10px 0;
+
+    box-shadow:
+    0 5px 12px rgba(236,72,153,.08);
+}
+
+.custom-list li:hover{
+    background:#ffe4f1;
+    color:#db2777;
+
+    transform:
+    translateX(10px)
+    scale(1.02);
+}
+
+/* Skills Sparkle */
+.skill-card:hover::after{
+    content:"✨";
+    position:absolute;
+    top:10px;
+    left:10px;
+
+    font-size:18px;
+
+    animation:sparklePop .5s ease;
+}
+
+@keyframes sparklePop{
+    from{
+        opacity:0;
+        transform:scale(0);
+    }
+
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+
+/* Hero Image Glow */
+.profile-img{
+    animation:
+    float 4s ease-in-out infinite;
+}
+
+.profile-img:hover{
+    box-shadow:
+    0 15px 35px rgba(236,72,153,.35),
+    0 0 35px rgba(236,72,153,.35);
+}
+
+/* Rotating Ring Glow */
+.profile-img-container::before{
+    box-shadow:
+    0 0 25px rgba(236,72,153,.35),
+    0 0 45px rgba(236,72,153,.15);
+}
+
+/* Contact Card Glow */
+.contact-box:hover{
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 20px 40px rgba(236,72,153,.20);
+}
+
+/* Cute Button Effect */
+.cta-btn{
+    position:relative;
+    overflow:hidden;
+}
+
+.cta-btn::before{
+    content:"";
+    position:absolute;
+
+    top:0;
+    left:-100%;
+
+    width:100%;
+    height:100%;
+
+    background:
+    linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.6),
+        transparent
+    );
+
+    transition:.8s;
+}
+
+.cta-btn:hover::before{
+    left:100%;
+}
+
+/* Typing Cursor */
+.hero-text h1{
+    border-right:3px solid #db2777;
+    width:fit-content;
+    margin:auto;
+    padding-right:5px;
+
+    animation:
+    textPop 1s ease,
+    blink .8s infinite;
+}
+
+@keyframes blink{
+    50%{
+        border-color:transparent;
+    }
+}
+
+/* Smooth Fade */
+.card,
+.project-card,
+.skill-card{
+    animation:fadeUp .8s ease;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* Cute Pink Scrollbar */
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#ffe4f0;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#ec4899;
+    border-radius:50px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#db2777;
+}
