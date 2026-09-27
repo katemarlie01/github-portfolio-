@@ -26,6 +26,16 @@ Hello! I'm **Kate Marlie V. Vitalicio**, a second-year Bachelor of Science in Co
 
 ---
 
+## 🪐 What I do in my free time
+
+  🍳Cook simple recipes.
+  
+  💄Trying to attempt different kinds/styles of make up.
+  
+  🎵Listening to good music.
+            
+---
+
 ## 🎯 Goals
 
 - 🚀 Become more confident in coding
