@@ -85,7 +85,6 @@ Hello! I'm **Kate Marlie V. Vitalicio**, a second-year Bachelor of Science in Co
 
 ### Tools
 - 🐙 GitHub
-- 🔧 Git
 
 ### Core Skills
 - 🧩 Problem Solving
