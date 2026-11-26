@@ -1,7 +1,7 @@
 🌸 Kate Marlie V. Vitalicio | Portfolio
 Welcome to my personal portfolio website. This project was developed as part of the CC104 Final Project requirement.
 
-I am a Second-Year Bachelor of Science in Computer Science student from Catanduanes State University, and this website serves as a platform to showcase my background, skills, academic projects, and contact information.
+I am a Second-Year Bachelor of Science in Computer Science student from Catanduanes State University. This website serves as a platform to showcase my educational background, technical skills, academic projects, interests, and contact information.
 
 🌐 Live Website
 🔗 https://katemarlie01.github.io/github-portfolio/
@@ -9,7 +9,7 @@ I am a Second-Year Bachelor of Science in Computer Science student from Catandua
 📖 About the Project
 This portfolio website was designed and developed using HTML and CSS. It highlights my personal information, educational background, technical skills, academic projects, hobbies, and contact details.
 
-The purpose of this project is to demonstrate my understanding of web development concepts, responsive design, website organization, and deployment using GitHub Pages.
+The purpose of this project is to demonstrate my understanding of web development concepts, responsive design, website organization, deployment, and user interface design.
 
 ✨ Features
 Responsive Design
@@ -18,8 +18,8 @@ Animated Elements Using AOS
 Interactive Card Effects Using Vanilla Tilt
 Educational Background Section
 Skills Section
-Personal Information Section
-Academic Projects Showcase
+About Me Section
+Academic Projects Section
 Contact Information Section
 GitHub Pages Deployment
 🛠️ Technologies Used
@@ -41,14 +41,14 @@ HTML
 CSS
 C++ Programming
 GitHub
-Data Structures
 Problem Solving
+Data Structures
 📂 Academic Projects
 🌐 Personal Portfolio Website
-A web portfolio developed using HTML and CSS that showcases my personal information, educational background, skills, and projects.
+A web portfolio developed using HTML and CSS that showcases my educational background, skills, projects, and contact information.
 
 ⚙️ C++ Programming Tasks
-A collection of programming exercises and coding activities completed as part of coursework requirements.
+A collection of coding exercises and programming activities completed during coursework.
 
 📊 Data Structures Implementations
 Projects involving arrays, stacks, queues, linked lists, and other fundamental data structures.
