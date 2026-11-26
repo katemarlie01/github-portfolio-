@@ -242,7 +242,30 @@ footer {
     color: var(--text-secondary);
     font-size: 0.88rem;
 }
+@media (max-width: 768px){
 
+    .container{
+        width:95%;
+        padding:15px;
+    }
+
+    .profile-img{
+        width:160px;
+        height:160px;
+    }
+
+    .name{
+        font-size:2rem;
+    }
+
+    .card{
+        padding:20px;
+    }
+
+    .custom-list li{
+        font-size:0.95rem;
+    }
+}
 @media (max-width: 640px) {
     .card { padding: 24px 20px; }
     .name { font-size: 1.9rem; }
